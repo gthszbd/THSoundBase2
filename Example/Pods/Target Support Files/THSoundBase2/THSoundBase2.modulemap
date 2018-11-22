@@ -1,6 +1,0 @@
-framework module THSoundBase2 {
-  umbrella header "THSoundBase2-umbrella.h"
-
-  export *
-  module * { export * }
-}
