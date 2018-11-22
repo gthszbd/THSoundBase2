@@ -12,10 +12,11 @@
 		30F5AD7D777394468F8164EBFF2ECA9A /* Pods-THSoundBase2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C3686F8D158FE1DFD41575E234B0BEF /* Pods-THSoundBase2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B92671C3B3753FA1968FDD7CD511AC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		574939A01930FCF5992B6636E3798D57 /* Pods-THSoundBase2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A51EE4760F83B18FDCF78E604C0F2 /* Pods-THSoundBase2_Tests-dummy.m */; };
-		5AEFD562A59E2A1535400C264E7866F3 /* THSoundBase2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 624668E61DA0D7816DE881C84CFF1859 /* THSoundBase2-dummy.m */; };
-		9F7905289990663517FE8C02B03B8590 /* THSoundBase2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7999F151B322EDFD8112B8EEEF9F935 /* THSoundBase2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72F1766F32CA57A71E60BDF23726CEAB /* THSoundBase2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99088E4E500E7DA093D541A1DB579D99 /* THSoundBase2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0273D488799A8651F6F5F366578E097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		C78ADD5FB281F55D07C6DCE2062AA636 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E91BA66AFCF5CFB5EFCBE110346766 /* ReplaceMe.m */; };
+		B7063146783D6B26A9C6AAA39FBC729D /* HWCar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FF6796E4A6455A43DE123A752697792 /* HWCar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBF2A3EE4BC9DA12F14E90ED7E24EC2F /* THSoundBase2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F13A74DF298E2FA35757E3F302BA30F9 /* THSoundBase2-dummy.m */; };
+		E9B5C095869B2EE338D6D9CFDEFCD055 /* HWCar.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC48261B661C50DAF15E018A9F19C9E /* HWCar.m */; };
 		FD68042080707CB868783D24F2374B94 /* Pods-THSoundBase2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6E665CD8A75682ED0AC2E53A477086 /* Pods-THSoundBase2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -38,40 +39,41 @@
 
 /* Begin PBXFileReference section */
 		0671903642BC23597BBB337722A70316 /* Pods-THSoundBase2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THSoundBase2_Example.release.xcconfig"; sourceTree = "<group>"; };
-		08BCA8C9B3D8F668F5A647E00A382F9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CBF7376342C2A62F5B4A43776682C4B /* Pods_THSoundBase2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_THSoundBase2_Tests.framework; path = "Pods-THSoundBase2_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27351E4A0F639679C555C298A4B4E339 /* THSoundBase2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THSoundBase2-prefix.pch"; sourceTree = "<group>"; };
+		2C6945ADA4576B9D72DB5C5063BD6B9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3241641D87901625C55E8D1BC97ACA11 /* Pods-THSoundBase2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THSoundBase2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C3686F8D158FE1DFD41575E234B0BEF /* Pods-THSoundBase2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-THSoundBase2_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3DA16C7DCB2DA5EF193EC679CFC5D860 /* Pods-THSoundBase2_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-THSoundBase2_Tests-resources.sh"; sourceTree = "<group>"; };
 		4599C50A66F5C23134BF7577CD50A21F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48B81B58DE5DC674BB3B0BF988D6458A /* THSoundBase2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = THSoundBase2.framework; path = THSoundBase2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		624668E61DA0D7816DE881C84CFF1859 /* THSoundBase2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "THSoundBase2-dummy.m"; sourceTree = "<group>"; };
-		67191AA2E91FAE29C16DDE7CF0BB98F4 /* THSoundBase2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = THSoundBase2.xcconfig; sourceTree = "<group>"; };
-		6DB503AFF9A080C167C84F6A00968F12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6FAB9DA44F1E630E4D3D1F4B664F4788 /* Pods-THSoundBase2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-THSoundBase2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72826FD0F6B69BEB5149C7DA27D07D94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E7082ADF3C55B6FBDEDC1BF33AE685D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FF6796E4A6455A43DE123A752697792 /* HWCar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HWCar.h; path = THSoundBase2/Classes/HWCar.h; sourceTree = "<group>"; };
 		857E35D945BFA4E68811857A7A459AAA /* Pods-THSoundBase2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-THSoundBase2_Example.modulemap"; sourceTree = "<group>"; };
 		8B7A51EE4760F83B18FDCF78E604C0F2 /* Pods-THSoundBase2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-THSoundBase2_Tests-dummy.m"; sourceTree = "<group>"; };
 		8EDF179CC68831E104EACCF81A62132C /* Pods-THSoundBase2_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-THSoundBase2_Example-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		967B630EEB4DBED830BB7D64427E5AF8 /* Pods-THSoundBase2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-THSoundBase2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		99088E4E500E7DA093D541A1DB579D99 /* THSoundBase2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THSoundBase2-umbrella.h"; sourceTree = "<group>"; };
+		A80380E1ED611A8471D503BDF4DCEEC5 /* THSoundBase2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = THSoundBase2.xcconfig; sourceTree = "<group>"; };
+		A827BC6A5DFA237BF0F7B2F1C9710A08 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AE6E665CD8A75682ED0AC2E53A477086 /* Pods-THSoundBase2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-THSoundBase2_Example-umbrella.h"; sourceTree = "<group>"; };
 		AFD82C6A3DCF97B2CE0E67BCC0681574 /* Pods-THSoundBase2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-THSoundBase2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B8BBF2D38979A2C27C09BC42B692866D /* THSoundBase2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = THSoundBase2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C0847BBAEEFE12A14F0322E57F949F70 /* Pods-THSoundBase2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THSoundBase2_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C08CF49178929AF484E67EEE238FCCFC /* Pods-THSoundBase2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-THSoundBase2_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C72A1A2DB167D1B3CED69ACF7721E5B1 /* Pods-THSoundBase2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-THSoundBase2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D2C87DD6EB7D61C1A88D04699045CEF7 /* Pods-THSoundBase2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-THSoundBase2_Example-dummy.m"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DD8705A40E1D23D5A92FAE389F060676 /* THSoundBase2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THSoundBase2-prefix.pch"; sourceTree = "<group>"; };
-		E4F8C8B0CA6AB2AAC1F731F12311F832 /* THSoundBase2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = THSoundBase2.modulemap; sourceTree = "<group>"; };
-		E706CF4FAF52BC7E7215DD8F2C2985FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DD8EEE579AEB5F53377CAA7E963B24AB /* THSoundBase2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = THSoundBase2.modulemap; sourceTree = "<group>"; };
 		EA0F1243AEE68F82BF2EEC442665759E /* Pods-THSoundBase2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-THSoundBase2_Tests.modulemap"; sourceTree = "<group>"; };
+		EF0EA413A03A587FF18446782AC84945 /* THSoundBase2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = THSoundBase2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EF5C2201AED04FCBADF3565EC7C95C71 /* Pods-THSoundBase2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THSoundBase2_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EFC48261B661C50DAF15E018A9F19C9E /* HWCar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HWCar.m; path = THSoundBase2/Classes/HWCar.m; sourceTree = "<group>"; };
 		F0C1685D3435256535ACD23145675930 /* Pods_THSoundBase2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_THSoundBase2_Example.framework; path = "Pods-THSoundBase2_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13A74DF298E2FA35757E3F302BA30F9 /* THSoundBase2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "THSoundBase2-dummy.m"; sourceTree = "<group>"; };
 		F272C2ED7725E0FB2E20174731DCF0F1 /* Pods-THSoundBase2_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-THSoundBase2_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F4E91BA66AFCF5CFB5EFCBE110346766 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = THSoundBase2/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		F7999F151B322EDFD8112B8EEEF9F935 /* THSoundBase2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THSoundBase2-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,28 +104,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00515CA4C6C243220AD1EA0332EDEA4C /* Support Files */ = {
+		09E443CBD23D77D2C903BA014FA73D57 /* THSoundBase2 */ = {
 			isa = PBXGroup;
 			children = (
-				08BCA8C9B3D8F668F5A647E00A382F9F /* Info.plist */,
-				E4F8C8B0CA6AB2AAC1F731F12311F832 /* THSoundBase2.modulemap */,
-				67191AA2E91FAE29C16DDE7CF0BB98F4 /* THSoundBase2.xcconfig */,
-				624668E61DA0D7816DE881C84CFF1859 /* THSoundBase2-dummy.m */,
-				DD8705A40E1D23D5A92FAE389F060676 /* THSoundBase2-prefix.pch */,
-				F7999F151B322EDFD8112B8EEEF9F935 /* THSoundBase2-umbrella.h */,
+				7FF6796E4A6455A43DE123A752697792 /* HWCar.h */,
+				EFC48261B661C50DAF15E018A9F19C9E /* HWCar.m */,
+				A8D4909F374F06FDF74A60B9002EA10D /* Pod */,
+				3318C0D61D1760128A4AE6C9A6E76680 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/THSoundBase2";
-			sourceTree = "<group>";
-		};
-		0A9A0814FF3BAD22A2598DB7DA617037 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6DB503AFF9A080C167C84F6A00968F12 /* LICENSE */,
-				E706CF4FAF52BC7E7215DD8F2C2985FC /* README.md */,
-				B8BBF2D38979A2C27C09BC42B692866D /* THSoundBase2.podspec */,
-			);
-			name = Pod;
+			name = THSoundBase2;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		146447FEAB603B6CC86B3E3E09DF523B /* Pods-THSoundBase2_Tests */ = {
@@ -144,6 +134,20 @@
 			path = "Target Support Files/Pods-THSoundBase2_Tests";
 			sourceTree = "<group>";
 		};
+		3318C0D61D1760128A4AE6C9A6E76680 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72826FD0F6B69BEB5149C7DA27D07D94 /* Info.plist */,
+				DD8EEE579AEB5F53377CAA7E963B24AB /* THSoundBase2.modulemap */,
+				A80380E1ED611A8471D503BDF4DCEEC5 /* THSoundBase2.xcconfig */,
+				F13A74DF298E2FA35757E3F302BA30F9 /* THSoundBase2-dummy.m */,
+				27351E4A0F639679C555C298A4B4E339 /* THSoundBase2-prefix.pch */,
+				99088E4E500E7DA093D541A1DB579D99 /* THSoundBase2-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/THSoundBase2";
+			sourceTree = "<group>";
+		};
 		3BBEB1D9B20D4FE073D0405CAA184AD4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,15 +165,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		496CDCAB3FCFBB450B37CA0B38CC1D83 /* THSoundBase2 */ = {
+		6534AC75B77A7F7F5A88A2D727CCC8EF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F4E91BA66AFCF5CFB5EFCBE110346766 /* ReplaceMe.m */,
-				0A9A0814FF3BAD22A2598DB7DA617037 /* Pod */,
-				00515CA4C6C243220AD1EA0332EDEA4C /* Support Files */,
+				09E443CBD23D77D2C903BA014FA73D57 /* THSoundBase2 */,
 			);
-			name = THSoundBase2;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		6B448E2286B95A8C46714D7B4C7BEDA6 /* Pods-THSoundBase2_Example */ = {
@@ -194,7 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C301B683431E54A6996D39C469251F73 /* Development Pods */,
+				6534AC75B77A7F7F5A88A2D727CCC8EF /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				8F999EA2BB7AC5ABC001005552E0D40B /* Products */,
 				3BBEB1D9B20D4FE073D0405CAA184AD4 /* Targets Support Files */,
@@ -211,6 +212,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A8D4909F374F06FDF74A60B9002EA10D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2C6945ADA4576B9D72DB5C5063BD6B9C /* LICENSE */,
+				A827BC6A5DFA237BF0F7B2F1C9710A08 /* README.md */,
+				EF0EA413A03A587FF18446782AC84945 /* THSoundBase2.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,22 +230,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C301B683431E54A6996D39C469251F73 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				496CDCAB3FCFBB450B37CA0B38CC1D83 /* THSoundBase2 */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0DF2161F049A690C6C9D21E665932073 /* Headers */ = {
+		2C98AE2815A8BB20339C37311F9E23F7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F7905289990663517FE8C02B03B8590 /* THSoundBase2-umbrella.h in Headers */,
+				B7063146783D6B26A9C6AAA39FBC729D /* HWCar.h in Headers */,
+				72F1766F32CA57A71E60BDF23726CEAB /* THSoundBase2-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +303,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F7EA0B207085D3AEDD161FB9508D424 /* Build configuration list for PBXNativeTarget "THSoundBase2" */;
 			buildPhases = (
-				0DF2161F049A690C6C9D21E665932073 /* Headers */,
-				DE9D97E4C5FC5C0FA82C25DBEFD35A91 /* Sources */,
+				2C98AE2815A8BB20339C37311F9E23F7 /* Headers */,
+				96D63D2CB80D13043349255DA57769FD /* Sources */,
 				B56E5588F48746C424F1D4E55C510A97 /* Frameworks */,
 				777A47109DC4C1CDA43B54ED51D70519 /* Resources */,
 			);
@@ -382,12 +386,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE9D97E4C5FC5C0FA82C25DBEFD35A91 /* Sources */ = {
+		96D63D2CB80D13043349255DA57769FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C78ADD5FB281F55D07C6DCE2062AA636 /* ReplaceMe.m in Sources */,
-				5AEFD562A59E2A1535400C264E7866F3 /* THSoundBase2-dummy.m in Sources */,
+				E9B5C095869B2EE338D6D9CFDEFCD055 /* HWCar.m in Sources */,
+				BBF2A3EE4BC9DA12F14E90ED7E24EC2F /* THSoundBase2-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,7 +577,7 @@
 		};
 		864781ADF226484A78C545DD5FA96320 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67191AA2E91FAE29C16DDE7CF0BB98F4 /* THSoundBase2.xcconfig */;
+			baseConfigurationReference = A80380E1ED611A8471D503BDF4DCEEC5 /* THSoundBase2.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -703,7 +707,7 @@
 		};
 		EE0A4413EB0836BF0B0A761A2DF2620A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67191AA2E91FAE29C16DDE7CF0BB98F4 /* THSoundBase2.xcconfig */;
+			baseConfigurationReference = A80380E1ED611A8471D503BDF4DCEEC5 /* THSoundBase2.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HWCar.h"
 
 FOUNDATION_EXPORT double THSoundBase2VersionNumber;
 FOUNDATION_EXPORT const unsigned char THSoundBase2VersionString[];
